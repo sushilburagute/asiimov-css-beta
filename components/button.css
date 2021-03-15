@@ -1,0 +1,72 @@
+/* BUTTONS */
+
+/* Primary button  */
+
+.primary-button {
+  padding: 0.5em 1.5em;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border: 2px solid var(--primary-color);
+}
+
+.primary-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* Secondary button */
+
+.secondary-button {
+  padding: 0.5em 1.5em;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border: 2px solid var(--primary-color);
+}
+
+.secondary-button:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+/* Icon Button */
+
+.icon-button {
+  padding: 0.5em 1.5em;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border: 2px solid var(--primary-color);
+}
+
+.icon-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.icon-button svg {
+  width: 1em;
+  height: 1em;
+}
