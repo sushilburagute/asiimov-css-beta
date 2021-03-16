@@ -2,6 +2,7 @@
 @import url("./button.css");
 @import url("./typograhy.css");
 @import url("./badges.css");
+@import url("./input.css");
 
 /* main css */
 :root {
@@ -13,7 +14,39 @@
   --light-grey: #d7e2e9;
   --alert-red: #cc0a38;
   --alert-green: #07a687;
+  --steel-blue-50: #f3fafc;
+  --steel-blue-100: #dff7fa;
+  --steel-blue-200: #b4ecf6;
+  --steel-blue-300: #81dcf2;
+  --steel-blue-400: #3ebeee;
+  --steel-blue-500: #189ae7;
+  --steel-blue-600: #1277d6;
+  --steel-blue-700: #155eb2;
+  --steel-blue-800: #154883;
+  --steel-blue-900: #133a64;
+  /* steel: {
+  '50':  '#f3fafc',
+  '100': '#dff7fa',
+  '200': '#b4ecf6',
+  '300': '#81dcf2',
+  '400': '#3ebeee',
+  '500': '#189ae7',
+  '600': '#1277d6',
+  '700': '#155eb2',
+  '800': '#154883',
+  '900': '#133a64',
+}, */
+
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+
+.alert-success {
+  width: 20em;
+  padding: 1em;
+  background-color: #48f3d19a;
+  color: var(--alert-green);
+}
+
+/* TAILWIND CONFIG*/

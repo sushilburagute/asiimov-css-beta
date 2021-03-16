@@ -4,7 +4,7 @@
 
 .primary-button {
   padding: 0.5em 1.5em;
-  background-color: var(--primary-color);
+  background-color: var(--steel-blue-500);
   color: var(--white);
   font-weight: 500;
   font-family: "Inter", sans-serif;
@@ -14,20 +14,20 @@
   border: none;
   cursor: pointer;
   transition: 0.4s ease;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--steel-blue-500);
 }
 
 .primary-button:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--steel-blue-50);
+  color: var(--steel-blue-500);
 }
 
 /* Secondary button */
 
 .secondary-button {
   padding: 0.5em 1.5em;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--steel-blue-50);
+  color: var(--steel-blue-500);
   font-weight: 500;
   font-family: "Inter", sans-serif;
   font-size: small;
@@ -36,19 +36,19 @@
   border: none;
   cursor: pointer;
   transition: 0.4s ease;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--steel-blue-500);
 }
 
 .secondary-button:hover {
   background-color: var(--white);
-  color: var(--primary-color);
+  color: var(--steel-blue-500);
 }
 
 /* Icon Button */
 
 .icon-button {
   padding: 0.5em 1.5em;
-  background-color: var(--primary-color);
+  background-color: var(--steel-blue-500);
   color: var(--white);
   font-weight: 500;
   font-family: "Inter", sans-serif;
@@ -58,12 +58,12 @@
   border: none;
   cursor: pointer;
   transition: 0.4s ease;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--steel-blue-500);
 }
 
 .icon-button:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--steel-blue-50);
+  color: var(--steel-blue-500);
 }
 
 .icon-button svg {
