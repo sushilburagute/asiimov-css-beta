@@ -318,6 +318,88 @@ body {
   background-repeat: no-repeat;
 }
 
+/* BUTTONS */
+
+.button-primary {
+  padding: 0.5em 1.5em;
+  background-color: var(--steel-blue-500);
+  color: var(--white);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border: 2px solid var(--steel-blue-500);
+}
+
+.button-primary:hover {
+  background-color: var(--white);
+  color: var(--steel-blue-500);
+}
+
+.button-secondary {
+  padding: 0.5em 1.5em;
+  background-color: var(--white);
+  color: var(--steel-blue-500);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border: 2px solid var(--steel-blue-500);
+}
+
+.button-icon {
+  display: flex;
+  justify-content: baseline;
+  padding: 0.5em 1.5em;
+  background-color: var(--steel-blue-500);
+  color: var(--white);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border: 2px solid var(--steel-blue-500);
+}
+
+.button-icon:hover {
+  background-color: var(--steel-blue-50);
+  color: var(--steel-blue-500);
+}
+
+.button-icon svg {
+  width: 1.4em;
+  height: 1.4em;
+  margin-right: 0.3em;
+}
+
+/* TOAST  */
+
+.toast {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: white;
+  width: calc(100% / 5);
+  border-radius: 0.3em;
+  border: 2px solid var(--steel-blue-500);
+}
+
+.toast svg {
+  width: 1.4em;
+  height: 1.4em;
+  margin-right: 0.3em;
+}
+
 /* ==================================================== */
 
 /* TAILWIND CONFIG*/
