@@ -53,79 +53,63 @@ body {
 
 /* AVATARS */
 
+.avatar {
+  border-radius: 100em;
+  padding: 0.5em;
+}
+
 .avatar-small {
   width: 2em;
   height: auto;
-  border-radius: 100em;
-  padding: 0.5em;
 }
 
 .avatar-medium {
   width: 3em;
   height: auto;
-  border-radius: 100em;
-  padding: 0.5em;
 }
 
 .avatar-large {
   width: 4em;
   height: auto;
-  border-radius: 100em;
-  padding: 0.5em;
 }
 
 .avatar-extra-large {
   width: 5em;
   height: auto;
-  border-radius: 100em;
-  padding: 0.5em;
 }
 
 /* ALERT */
 
-.alert-success {
+.alert {
   margin: 0.7em 0em;
   padding: 1em 1em;
-  background-color: #d1f7f0;
-  color: #11593b;
   border-radius: 0.5em;
   font-weight: 500;
+}
+
+.alert-success {
+  background-color: #d1f7f0;
+  color: #11593b;
 }
 
 .alert-error {
-  margin: 0.7em 0em;
-  padding: 1em 1em;
   background-color: #fad7d6;
   color: #f13531;
-  border-radius: 0.5em;
-  font-weight: 500;
 }
 
 .alert-warning {
-  margin: 0.7em 0em;
-  padding: 1em 1em;
   background-color: #f8e3ce;
   color: #ee7031;
-  border-radius: 0.5em;
-  font-weight: 500;
 }
 
 .alert-primary {
-  margin: 0.7em 0em;
-  padding: 1em 1em;
   background-color: var(--steel-blue-100);
   color: var(--steel-blue-500);
-  border-radius: 0.5em;
-  font-weight: 500;
 }
 
 .alert-secondary {
-  margin: 0.7em 0em;
-  padding: 1em 1em;
   background-color: #c7c7c7;
   color: #32383d;
-  border-radius: 0.5em;
-  font-weight: 500;
 }
 
 /* BADGES */
@@ -154,10 +138,8 @@ body {
   border-radius: 100em;
 }
 
-.badge-pill-primary {
-  background-color: var(--steel-blue-600);
-  color: var(--white);
-  margin: 0.2em 1em;
+.badge-pill {
+  margin: 0.4em 1em;
   padding: 0.4em 0.7em;
   width: 7em;
   height: auto;
@@ -167,17 +149,14 @@ body {
   font-size: 0.9em;
 }
 
+.badge-pill-primary {
+  background-color: var(--steel-blue-600);
+  color: var(--white);
+}
+
 .badge-pill-secondary {
   background-color: var(--white);
   color: var(--steel-blue-600);
-  margin: 0.4em 1em;
-  padding: 0.4em 0.7em;
-  width: 7em;
-  height: auto;
-  text-align: center;
-  border: solid 2px var(--steel-blue-600);
-  border-radius: 100em;
-  font-size: 0.9em;
 }
 
 /* Input */
@@ -195,11 +174,7 @@ body {
 }
 
 .textbox-warning {
-  margin: 0.2em 1em;
-  padding: 0.4em 0.7em;
   border: solid 2px #f13531;
-  border-radius: 0.3em;
-  color: var(--grey);
 }
 
 .textbox-warning:focus {
@@ -207,45 +182,37 @@ body {
 }
 
 .textbox-disabled {
-  margin: 0.2em 1em;
-  padding: 0.4em 0.7em;
   border: solid 2px #d1d1d1;
-  border-radius: 0.3em;
   pointer-events: none;
 }
 
 /* TYPOGRAHY */
 
+.text {
+  margin: 0;
+  padding: 0;
+}
+
 .heading {
   font-size: 28px;
   font-weight: 700;
-  margin: 0;
-  padding: 0;
 }
 
 .subheading {
   font-size: 18px;
   font-weight: 300;
-  margin: 0;
-  padding: 0;
 }
 
 .small-text {
   font-size: small;
-  margin: 0;
-  padding: 0;
 }
 
 .grey-text {
   color: var(--grey);
-  margin: 0;
-  padding: 0;
 }
 
 .paragrahy {
   font-weight: 300;
-  margin: 0;
-  padding: 0;
 }
 
 /* IMAGE */
@@ -320,10 +287,8 @@ body {
 
 /* BUTTONS */
 
-.button-primary {
+.button {
   padding: 0.5em 1.5em;
-  background-color: var(--steel-blue-500);
-  color: var(--white);
   font-weight: 500;
   font-family: "Inter", sans-serif;
   font-size: small;
@@ -332,6 +297,11 @@ body {
   cursor: pointer;
   transition: 0.4s ease;
   border: 2px solid var(--steel-blue-500);
+}
+
+.button-primary {
+  background-color: var(--steel-blue-500);
+  color: var(--white);
 }
 
 .button-primary:hover {
@@ -340,35 +310,15 @@ body {
 }
 
 .button-secondary {
-  padding: 0.5em 1.5em;
   background-color: var(--white);
   color: var(--steel-blue-500);
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
-  font-size: small;
-  border-radius: 3px;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: 0.4s ease;
-  border: 2px solid var(--steel-blue-500);
 }
 
 .button-icon {
   display: flex;
   justify-content: baseline;
-  padding: 0.5em 1.5em;
   background-color: var(--steel-blue-500);
   color: var(--white);
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
-  font-size: small;
-  border-radius: 3px;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: 0.4s ease;
-  border: 2px solid var(--steel-blue-500);
 }
 
 .button-icon:hover {
